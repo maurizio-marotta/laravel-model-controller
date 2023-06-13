@@ -6,6 +6,15 @@
     <title>model controller</title>
 </head>
 <body>
-    <h1>ciao</h1>
+    @include('partials.header')
+
+
+
+
+    <main>@yield('content')</main>
+
+
+
+    @include('partials.footer')
 </body>
 </html>
